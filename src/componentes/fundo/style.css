@@ -1,0 +1,99 @@
+body{
+    background: rgb(14,0,255);
+background: linear-gradient(0deg, rgba(14,0,255,1) 0%, rgba(80,2,152,1) 0%, rgba(6,161,241,1) 50%);
+width: 100vw;
+height: 100vh;
+}
+
+.container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.quad{
+    background-color: white;
+    width: 1880px;
+    height: 900px;
+    margin-top: 20px;
+    border-radius: 39px;
+    
+}
+
+.colunleft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    animation-duration: 0.5s;
+    animation-name: boasvindas;
+    
+}
+
+h1{
+   
+}
+
+#texto{
+    font-size: 56px;
+    font-style: bold;
+    margin-top: -50px;
+    margin-left: 190px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    animation-duration: 2.5s;
+    animation-name: boasvindas;
+}
+@keyframes boasvindas{
+    0% {
+        transform: translateX(200px);
+    }
+    200% {
+        transform: translateX(0);
+    }
+}
+
+a{
+    margin-left: 210px;
+    color: black;
+}
+
+.registre{
+    width: 350px;
+    height: 70px;
+    background-color: #2B56C5;
+    margin-left: 190px;
+    margin-top: 160px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    animation-duration: 3s;
+    animation-name: boasvindas;
+
+}
+
+.registre:hover{
+    background-color: #041542;
+    cursor: pointer;
+    
+}
+
+.image{
+    margin-top: -500px;
+    margin-left: 1000px;
+    animation-duration: 0.5s;
+    animation-name: boasvindas;
+}
+
+.colunright{
+    display: flex;
+}
+
